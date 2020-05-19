@@ -1,0 +1,18 @@
+<script src="jquery-3.5.1.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        $("#fact").click(function(){
+            var n=parseInt($("#num").val()); //getter
+            var f=1;
+            for(i=1;i<=n;i++){
+                f=f*i;
+            }
+            $("#result").val(f); //setter
+        });
+    });
+</script>
+
+
+Number <input type="text" id="num" size="20"><br>
+Result <input type="text" id="result" size="20"><br>
+<input type="button" value="Factorial" id="fact">
