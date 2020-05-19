@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        
+        $("#square").click(function(){
+            var n=parseFloat($("#num").val());
+            $("#result").val(n*n);
+        });
+
+        $("#cube").click(function(){
+            var n=parseFloat($("#num").val());
+            $("#result").val(n*n*n);
+        });
+
+    });
+</script>
+
+
+Number <input type="text" id="num" size="20"><br>
+Result <input type="text" id="result" size="20"><br>
+<input type="button" value="Square" id="square">
+<input type="button" value="Cube" id="cube">
+
