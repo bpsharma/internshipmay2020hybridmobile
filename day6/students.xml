@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<students>
+	<student>
+	 <rollno>2018BCS1011</rollno>
+	 <name>Amit Kumar</name>
+	 <course>B.Tech. (CSE)</course>
+	</student>
+        <student>
+	 <rollno>2018BIT1012</rollno>
+	 <name>Rohit Kumar</name>
+	 <course>B.Tech. (IT)</course>
+	</student>
+</students>
