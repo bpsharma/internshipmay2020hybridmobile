@@ -1,0 +1,18 @@
+{
+	"students": [{
+			"rollno": "2018BCS1011",
+			"name": "Amit Kumar",
+			"course": "B.Tech (CSE)"
+		},
+		{
+			"rollno": "2018BIT1012",
+			"name": "Rohit Kumar",
+			"course": "B.Tech (IT)"
+		},
+		{
+			"rollno": "2018BCI1013",
+			"name": "Sanjay Kumar",
+			"course": "B.Tech (CEIT)"
+		}
+	]
+}
