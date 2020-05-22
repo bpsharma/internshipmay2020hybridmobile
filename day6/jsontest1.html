@@ -1,0 +1,16 @@
+
+<div id="rollno"></div>
+<div id="name"></div>
+<div id="course"></div>
+
+<div id="data"></div>
+
+<script>
+    var s={"rollno":"2018BCS1011","name":"Amit Kumar","course":"B.Tech (CSE)"};
+    document.getElementById("rollno").innerHTML=s.rollno;
+    document.getElementById("name").innerHTML=s.name;
+    document.getElementById("course").innerHTML=s.course;
+
+    var cdata=JSON.stringify(s);
+    document.getElementById("data").innerHTML=cdata;
+</script>
