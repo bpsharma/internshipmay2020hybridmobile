@@ -1,0 +1,18 @@
+
+<div id="data"></div>
+<script>
+    var s={"students":[
+    {"rollno":"2018BCS1011","name":"Amit Kumar","course":"B.Tech (CSE)"},
+    {"rollno":"2018BIT1012","name":"Rohit Kumar","course":"B.Tech (IT)"},
+    {"rollno":"2018BCI1013","name":"Sanjay Kumar","course":"B.Tech (CEIT)"}
+    ]};
+
+    alert("Number of students : "+s.students.length);
+    var out="<table border='1' align='center'>";
+    for(i=0;i<s.students.length;i++){
+        out+="<tr><td>"+s.students[i].rollno+"<td>"+s.students[i].name+"<td>"+s.students[i].course+"</tr>";
+    }
+    out+="</table>";
+    document.getElementById("data").innerHTML=out;
+    
+</script>
